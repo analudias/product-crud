@@ -42,6 +42,7 @@ public class ProductService {
 	public ProductDTO update(Long id, ProductDTO dto) {
 		try {
 			Product entity = new Product();
+			entity.setId(id);
 			entity.setName(dto.getName());
 			entity.setDescription(dto.getDescription());
 			entity.setPrice(dto.getPrice());
