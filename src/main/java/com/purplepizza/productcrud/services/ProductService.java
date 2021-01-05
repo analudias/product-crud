@@ -9,10 +9,10 @@ import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.dsclient.services.exceptions.ResourceNotFoundException;
 import com.purplepizza.productcrud.entities.Product;
 import com.purplepizza.productcrud.entities.dto.ProductDTO;
 import com.purplepizza.productcrud.repositories.ProductRepository;
+import com.purplepizza.productcrud.services.exceptions.ResourceNotFoundException;
 
 @Service
 public class ProductService {
