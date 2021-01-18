@@ -1,4 +1,4 @@
-# umCRUDporsemana
+# CRUD de produtos
 
 Fazendo um CRUD por semana até eu me sentir confiante que sei fazer CRUDs
 
