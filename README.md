@@ -6,11 +6,11 @@ Fazendo um CRUD por semana até eu me sentir confiante que sei fazer CRUDs
 
 ### STS
 - git clone https://github.com/analudias/product-crud.git
-- Import project into STS
-- Run project
+- Importe o projeto no STS
+- Execute o project
 
 ### Postman
-- Create requests
+- Crie novas requests
   - POST new Produto
     - {{host}}/produtos/
   - PUT update Produto
